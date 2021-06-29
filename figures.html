@@ -7,8 +7,43 @@
     <title>Geometry figures</title>
   </head>
   <body>
-    <h1>Geometry figures</h1>
-
+    <header>
+      <h1>Geometry figures</h1>
+      <p>This is the first JavaScript Project</p>
+    </header>
+    <section>
+      <form action="#">
+        <label for="sideSquare"
+          >How much the side of your square measures</label
+        >
+        <input type="number" name="number" id="sideSquare" />
+        <button type="button" onclick="calculateSquarePerimeter()">
+          Calculate Perimeter
+        </button>
+        <button type="button" onclick="calculateSquareArea()">
+          Calculate Area
+        </button>
+      </form>
+      <form action="#">
+        <label for="Triangle1"
+          >How much the sides of your triangle measures</label
+        >
+        <input
+          type="number1"
+          name="triangle"
+          id="Triangle1"
+          placeholder="first side"
+        />
+        <input type="number" name="triangle2" id="Triangle2" />
+        <input type="number" name="triangle3" id="Triangle3" />
+        <button type="button" onclick="calculateTrianglePerimeter()">
+          Calculate Perimeter
+        </button>
+        <button type="button" onclick="calculateTriangleArea()">
+          Calculate Area
+        </button>
+      </form>
+    </section>
     <script src="./figures.js"></script>
   </body>
 </html>
