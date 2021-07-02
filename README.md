@@ -10,3 +10,10 @@ Practice JavaScript Course
 - Second step: Use formulas with JavaScript
 - Third step: Create functions
 - Four step: Integrate Js with Html
+
+## Taller #2: percentage and discount
+
+- First step: define the formulas
+- Second step: Use formulas with JavaScript
+- Third step: Create functions
+- Four step: Integrate Js with Html
