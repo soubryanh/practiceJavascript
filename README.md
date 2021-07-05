@@ -17,3 +17,10 @@ Practice JavaScript Course
 - Second step: Use formulas with JavaScript
 - Third step: Create functions
 - Four step: Integrate Js with Html
+
+## Taller #3: average, mediana, moda
+
+- First step: define the formulas
+- Second step: Use formulas with JavaScript
+- Third step: Create functions
+- Four step: Integrate Js with Html
