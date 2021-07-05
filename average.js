@@ -15,8 +15,8 @@ const calculateMediaArithmetic = (list) => {
 
 const onclickAverage = () => {
   const input = document.getElementById("list");
-  const value = input.value;
-  const list = calculateMediaArithmetic(value);
+  const value = parseInt(input.value);
+  const list = calculateMediaArithmetic([value]);
   const showresult = document.getElementById("showresult");
   showresult.innerText = `Result: ${list}`;
 };
